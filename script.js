@@ -14,6 +14,7 @@ const playbackUrl = 'https://a5cdcc97c596.eu-west-1.playback.live-video.net/api/
   const videoJSPlayer = videojs("amazon-ivs-videojs", {
       techOrder: ["AmazonIVS"],
       autoplay: true,
+      muted: false,
       liveui: true,
       controlBar: {
         captionsButton: false,
