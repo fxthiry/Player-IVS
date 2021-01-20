@@ -85,7 +85,7 @@ const playbackUrl = 'https://a5cdcc97c596.eu-west-1.playback.live-video.net/api/
 
       // Set volume and play default stream
       videoJSPlayer.muted(false);
-      videoJSPlayer.volume(0.5);
+      videoJSPlayer.volume(1);
       videoJSPlayer.src(playbackUrl);
   };
 
