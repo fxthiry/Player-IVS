@@ -1,0 +1,47 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+  background: #F2F2F8;
+  display: grid;
+  place-items: center;
+}
+
+.player-wrapper {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+video {
+      object-fit: cover;
+      width: 100vw;
+      height: 100vh;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+
+    .vjs-subs-caps-button {
+        display: none!important;
+      }
+
+      .vjs-big-play-button {
+        display: none!important;
+      }
+
+      .vjs-play-control{
+        display: none!important;
+      }
+
+      .video-js.vjs-has-started .vjs-tech {
+        pointer-events: none;
+      }
